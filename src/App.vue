@@ -8,7 +8,6 @@
       <SideBar class="main__list" />
       <UserCard class="main__card" />
     </main>
-    
   </div>
 </template>
 
@@ -25,9 +24,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import './assets/style/main.scss';
+<style lang="scss">
+  @import '@/assets/style/fonts.scss';
+  @import '@/assets/style/main.scss';
+</style>
 
+<style lang="scss" scoped>
 #app {
   display: flex;
   flex-direction: column;
@@ -65,14 +67,15 @@ export default {
 .main {
   display: flex;
   flex-direction: row;
+  height: 100%;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #0000001A;
   background-color: #FDFDFD;
-  height: 100%;
+  overflow: hidden;
 }
 
 .main__list {
-  max-width: 251px;
+  min-width: 251px;
   border-right: 1px solid #E0E0E0;
 }
 

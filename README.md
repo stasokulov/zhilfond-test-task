@@ -1,5 +1,7 @@
 # zhilfond-test-task
 
+Ссылка на текст тестового задания: https://docs.google.com/document/d/1duogz2g-vh-vvNzAkDRZu8fA1zr15bk6buCUhUVmrqs/edit
+
 Ссылка на сайт: https://stasokulov.github.io/zhilfond-test-task/
 
 ## Публикация на Github Pages

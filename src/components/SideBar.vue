@@ -72,7 +72,8 @@ export default {
 
 <style lang="scss" scoped>
 .sidebar {
-  padding: 27px 20px 20px 31px;
+  padding: 27px 31px 20px 20px;
+  overflow: auto;
 
   h2 {
     margin: 0;
@@ -116,6 +117,8 @@ export default {
 }
 
 .sidebar__input {
+  width: 100%;
+  box-sizing: border-box;
   padding: 16px;
   border: 1.5px solid #E9ECEF;
   color: #76787D;
