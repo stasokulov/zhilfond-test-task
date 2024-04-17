@@ -1,28 +1,82 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header class="header">
+      <h1 class="header__logo">Жилфонд</h1>
+      <span class="header__title">Пользователь</span>
+    </header>
+    <main class="main">
+      <SideBar class="main__list" />
+      <UserCard class="main__card" />
+    </main>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SideBar from '@/components/SideBar.vue'
+import UserCard from '@/components/UserCard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    SideBar,
+    UserCard
+  },
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import './assets/style/main.scss';
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px 58px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.header__logo {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  color: #E31F24;
+}
+
+.header__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #333333;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #0000001A;
+  background-color: #FDFDFD;
+  height: 100%;
+}
+
+.main__list {
+  max-width: 251px;
+  border-right: 1px solid #E0E0E0;
+}
+
+.main__card {
+  padding: 30px 30px 30px 21px;
 }
 </style>
