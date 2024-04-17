@@ -1,5 +1,7 @@
 # zhilfond-test-task
 
+Ссылка на сайт: https://stasokulov.github.io/zhilfond-test-task/
+
 ## Публикация на Github Pages
 
 Сбилдить и поместить файлы из папки dist в папку docs
