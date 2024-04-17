@@ -1,5 +1,9 @@
 # zhilfond-test-task
 
+## Публикация на Github Pages
+
+Сбилдить и поместить файлы из папки dist в папку docs
+
 ## Project setup
 ```
 npm install
