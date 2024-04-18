@@ -92,7 +92,6 @@ export default {
 .sidebar {
   padding: 27px 31px 20px 20px;
   overflow: auto;
-  font-family: "Montserrat", sans-serif;
 
   h2 {
     margin: 0;

@@ -74,7 +74,6 @@ export default {
 }
 
 .card__info {
-  font-family: "Montserrat", sans-serif;
   text-align: left;
   color: #000000;
 }
@@ -124,7 +123,6 @@ export default {
 
 .card__empty-message {
   margin: auto;
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 17.07px;

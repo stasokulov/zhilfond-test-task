@@ -55,7 +55,6 @@ export default {
 .card__info {
   width: 100%;
   padding: 15px;
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17.07px;
   text-align: left;

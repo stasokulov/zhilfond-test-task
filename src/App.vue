@@ -46,7 +46,6 @@ export default {
 
 .header__logo {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 39.01px;
@@ -55,7 +54,6 @@ export default {
 }
 
 .header__title {
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
